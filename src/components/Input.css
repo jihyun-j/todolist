@@ -1,0 +1,31 @@
+@import "normalize.css";
+
+.todo-form {
+  background-color: #ddf7e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  gap: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.todo-form .input {
+  height: 25px;
+  width: 300px;
+  padding: 5px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ddf7e3;
+}
+
+.todo-form .input:focus {
+  border: 3px solid #df2e38;
+}
+
+.todo-form .submit-btn {
+  height: 25px;
+  padding: 5px;
+  color: #5d9c59;
+}

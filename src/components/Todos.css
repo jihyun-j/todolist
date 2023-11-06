@@ -1,0 +1,43 @@
+.todo-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.todo-container .todo-card {
+  border: 1px solid rgb(211, 211, 211);
+  padding: 20px;
+  list-style: none;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  justify-content: space-around;
+}
+
+.todo-container .todo-card .todo-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.todo-container .todo-card .todo-detail {
+}
+
+.todo-container .todo-card .btn {
+  height: 25px;
+  padding: 5px;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.todo-container .todo-card .cancel-done {
+  border: none;
+  background-color: #5d9c59;
+}
+.todo-container .todo-card .delete {
+  border: none;
+  background-color: #df2e38;
+}

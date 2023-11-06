@@ -1,6 +1,6 @@
 import React from "react";
 import "./Todos.css";
-import images from "./images.png";
+import images from "../images.png";
 
 function Todos({ todos, clickDone, clickDelete, children }) {
   return (

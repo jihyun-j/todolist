@@ -1,8 +1,12 @@
 # Todo List
-.
-├── ...
-├── test                   
-│   ├── benchmarks          
-│   ├── integration         
-│   └── unit               
-└── ...
+
+- 폴더1/
+  - 하위폴더1/
+    - 파일1.js
+    - 파일2.js
+  - 하위폴더2/
+    - 파일3.css
+- 폴더2/
+  - 파일4.html
+  - 파일5.js
+- 파일6.txt

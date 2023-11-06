@@ -3,13 +3,6 @@ import "./App.css";
 import Header from "./components/Header";
 import Input from "./components/Input";
 import Todos from "./components/Todos";
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/reseter.css/1.0.8/reseter.min.css"
-  integrity="sha512-w7sMEM5yzmuVP9ic9zpCLk/+whwrrhkH5g83x0wi5DEPo1y+/JniMmCVfbtjw5JipFpcCb4gyF2xLES6tc+TxA=="
-  crossorigin="anonymous"
-  referrerpolicy="no-referrer"
-/>;
 
 function App() {
   const [todoTitle, setTodoTitle] = useState("");

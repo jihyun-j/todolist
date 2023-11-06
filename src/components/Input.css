@@ -9,6 +9,7 @@
   gap: 10px;
   border-radius: 10px;
   margin-top: 10px;
+  color: #151515;
 }
 
 .todo-form .input {
@@ -21,11 +22,23 @@
 }
 
 .todo-form .input:focus {
-  border: 3px solid #df2e38;
+  border: 3px solid #5d9c59;
 }
 
 .todo-form .submit-btn {
-  height: 25px;
-  padding: 5px;
+  background-color: #5d9c59;
+  border: 2px solid #5d9c59;
+  border-radius: 5px;
+  height: auto;
+  padding: 8px 15px;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+}
+
+.todo-form .submit-btn:hover {
+  cursor: pointer;
+  border: 2px solid #5d9c59;
+  background-color: transparent;
   color: #5d9c59;
 }

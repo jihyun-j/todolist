@@ -18,26 +18,62 @@
   justify-content: space-around;
 }
 
-.todo-container .todo-card .todo-title {
+.todo-container .todo-card .todo-contents {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #151515;
+}
+
+.todo-container .todo-card .todo-contents .todo-title {
   font-size: 20px;
   font-weight: 600;
 }
 
 .todo-container .todo-card .todo-detail {
+  font-size: 15px;
 }
 
-.todo-container .todo-card .btn {
-  height: 25px;
+.todo-container .todo-card .btn-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.todo-container .todo-card .btn-container .btn {
+  cursor: pointer;
+  height: auto;
   padding: 5px;
-  color: #fff;
-  padding: 10px 20px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: 600;
 }
 
-.todo-container .todo-card .cancel-done {
-  border: none;
-  background-color: #5d9c59;
+.todo-container .todo-card .btn-container .cancel-done {
+  background-color: transparent;
+  border: 2px solid #5d9c59;
+  color: #5d9c59;
 }
-.todo-container .todo-card .delete {
-  border: none;
+
+.todo-container .todo-card .btn-container .cancel-done:hover {
+  background-color: #5d9c59;
+  color: #fff;
+  border: 2px solid #5d9c59;
+}
+
+.todo-container .todo-card .btn-container .delete {
   background-color: #df2e38;
+  border: 2px solid #df2e38;
+  color: #fff;
+}
+
+.todo-container .image-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.done-img {
+  height: 80px;
+  width: 80px;
 }
